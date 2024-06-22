@@ -1,0 +1,42 @@
+export const data = [
+    {
+      question: "Who wrote the play 'Romeo and Juliet'?",
+      option1: "William Shakespeare",
+      option2: "Charles Dickens",
+      option3: "Mark Twain",
+      option4: "Jane Austen",
+      ans: 1,
+    },
+    {
+      question: "What is the chemical symbol for gold?",
+      option1: "Au",
+      option2: "Ag",
+      option3: "Go",
+      option4: "Gd",
+      ans: 1,
+    },
+    {
+      question: "Which year did the Titanic sink?",
+      option1: "1949",
+      option2: "1912",
+      option3: "1919",
+      option4: "1930",
+      ans: 2,
+    },
+    {
+      question: "How many valves does a human heart have?",
+      option1: "2",
+      option2: "3",
+      option3: "4",
+      option4: "5",
+      ans: 3,
+    },
+    {
+      question: "Which country owns painting Salvator Mundi?",
+      option1: "France",
+      option2: "U.A.E",
+      option3: "Italy",
+      option4: "Saudi Arabia",
+      ans: 4,
+    },
+  ];

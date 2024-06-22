@@ -1,0 +1,16 @@
+.btn-container ul{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+}
+
+ul button{
+    width: 500px;
+    height: 100px;
+    font-size: 1.9rem;
+    justify-content: center;
+}

@@ -3,6 +3,8 @@ import Dashboard from "./Dashboard";
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom";
 import { RedirectToSignIn, SignedIn, SignedOut, SignUpButton } from "@clerk/clerk-react";
 import Quiz from "./components/Quiz/Quiz";
+import MediumQuiz from "./components/Quiz/MediumQuiz";
+import DifficultQuiz from "./components/Quiz/DifficultQuiz";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -20,8 +22,8 @@ const router = createBrowserRouter(
       </>} />
 
       <Route path="/easyquiz" element={<Quiz />} />
-      {/* <Route path="/mediumquiz" element={<MediumQuiz />} />
-      <Route path="/difficultquiz" element={<DifficultQuiz />} /> */}
+      <Route path="/mediumquiz" element={<MediumQuiz />} />
+      <Route path="/difficultquiz" element={<DifficultQuiz />} />
     </>
   )
 );

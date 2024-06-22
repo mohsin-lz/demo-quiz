@@ -1,0 +1,42 @@
+export const data = [
+    {
+      question: "Who is known as the father of modern physics?",
+      option1: "Isaac Newton",
+      option2: "Galileo Galilei",
+      option3: "Albert Einstein",
+      option4: "Niels Bohr",
+      ans: 3,
+    },
+    {
+      question: "Which ancient civilization built the Machu Picchu complex in Peru?",
+      option1: "Aztec",
+      option2: "Mayan",
+      option3: "Olmec",
+      option4: "Inca",
+      ans: 4,
+    },
+    {
+      question: "What is the largest internal organ in the human body?",
+      option1: "Heart",
+      option2: "Liver",
+      option3: "Lungs",
+      option4: "Kidney",
+      ans: 2,
+    },
+    {
+      question: "Who wrote the book 'Art Of War'?",
+      option1: "Sun Tzu",
+      option2: "Leo Tolstoy",
+      option3: "Anton Chekhov",
+      option4: "Ivan Turgenev",
+      ans: 1,
+    },
+    {
+      question: "Which mathematician is known for the incompleteness theorems?",
+      option1: "Alan Turing",
+      option2: "Kurt Gödel",
+      option3: "John von Neumann",
+      option4: "Henri Poincaré",
+      ans: 2,
+    },
+  ];

@@ -31,7 +31,9 @@ button {
   flex-direction: row;
   flex-shrink: 0;
   font-family: "RM Neue",sans-serif;
-  font-size: 100%;
+  font-size: 2rem;
+  width: 200px;
+  justify-content: center;
   line-height: 1.15;
   margin: 0;
   padding: 10px 21px;

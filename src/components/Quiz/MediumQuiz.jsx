@@ -1,13 +1,13 @@
 import React, { useRef, useState } from 'react'
-import './MediumQuiz.css'
+import "./MediumQuiz.css"
 
 //Importing Questions file here
-import { data } from '../../assets/MediumQuizData';
+import { MidData } from '../../assets/MediumQuizData';
 
 
 
 // Generating questions from data.js usind useState hooks
-const MediumQuiz = () => {
+const Quiz = () => {
 
 // Set the index 0 means question starting from 1
     let [index,setIndex] = useState(0);
@@ -86,7 +86,7 @@ const MediumQuiz = () => {
 
   return (
     <div className='container'>
-      <h1>Medium Quiz</h1>
+      <h1>Quiz App</h1>
       <hr />
 
       {result?<></>:<>
@@ -112,4 +112,4 @@ const MediumQuiz = () => {
   )
 }
 
-export default MediumQuiz
+export default Quiz

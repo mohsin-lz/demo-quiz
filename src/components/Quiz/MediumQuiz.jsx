@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react'
 import "./MediumQuiz.css"
 
 //Importing Questions file here
-import { MidData } from '../../assets/MediumQuizData';
+import { data } from '../../assets/MediumQuizData';
 
 
 
@@ -86,7 +86,7 @@ const Quiz = () => {
 
   return (
     <div className='container'>
-      <h1>Quiz App</h1>
+      <h1>Medium Quiz</h1>
       <hr />
 
       {result?<></>:<>

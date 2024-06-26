@@ -1,4 +1,4 @@
-export const MidData = [
+export const data = [
     {
       question: "Who wrote the play 'Romeo and Juliet'?",
       option1: "William Shakespeare",
